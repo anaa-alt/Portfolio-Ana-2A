@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+--cor-principal: #87CEFA;
+--cor-secundária:#00BFFF;
+--cor-destaque:#1E90FF;
+
+}
+
+body{
+    font-family:"Lora";
+
+}
+
+h1, h2, h4{
+    color:#1E90FF
+}
