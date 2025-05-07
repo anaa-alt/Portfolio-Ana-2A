@@ -1,17 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root{
---cor-principal: #87CEFA;
---cor-secundária:#00BFFF;
+--cor-principal: #c7e2ee;
+--cor-secundária:#103992;
 --cor-destaque:#1E90FF;
 
 }
 
 body{
-    font-family:"Lora";
+    font-family:"Lora", sans-serif;
+    font-weight:500;
+    background-color: #c7e2ee;
 
 }
 
 h1, h2, h4{
-    color:#1E90FF
+    color:#103992;
+
+}
+
+.btn-link{
+    color: var(--cor-secundária);
+    font-weight:700;
+}
+
+a, .btn-link:hover{
+color:var(--cor-secundária)
+}
+
+a:hover{
+    color:var(--cor-destaque)
 }
