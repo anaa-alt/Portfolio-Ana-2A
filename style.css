@@ -25,9 +25,9 @@ h1, h2, h4{
 }
 
 a, .btn-link:hover{
-color:var(--cor-secundária)
+color:var(--cor-destaque)
 }
 
 a:hover{
-    color:var(--cor-destaque)
+    color:var(--cor-secundária)
 }
